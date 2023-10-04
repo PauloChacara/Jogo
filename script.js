@@ -1,5 +1,5 @@
 //arreglo que contiene las respuestas correctas
-let correctas = [3,1,2,4,3];
+let correctas = [3,1,1,6,3];
 
 //arreglo donde se guardan las respuestas del usuario
 let opcion_elegida=[];
