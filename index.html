@@ -13,8 +13,41 @@
     </header>
 
     <div class="container">
+
+        
         <section id="p0">
-            <h3> 1- Bob ...... y he desayunado deprisa.  </h3>
+            <h3>1- Después de la clase de hoy ....... y me  he gustado. </h3>
+            
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> He relajado
+            </label>
+
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Has relajado
+            </label>
+
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Ha relajado
+            </label>
+
+            <label>
+                <input type="radio" value="4" name="p1" onclick="respuesta(1,this)"> Hemos relajado
+            </label>
+
+            <label>
+                <input type="radio" value="5" name="p1" onclick="respuesta(1,this)"> Habeis relajado
+            </label>
+
+            <label>
+                <input type="radio" value="6" name="p1" onclick="respuesta(1,this)"> Han relajado 
+            </label>
+
+            
+
+        </section>
+
+        <section id="p1">
+            <h3> 2- Bob ...... y he desayunado deprisa.  </h3>
             
             <label>
                 <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Me He vestido
@@ -44,38 +77,6 @@
 
         </section>
 
-
-
-        <section id="p1">
-            <h3>2- Después de la clase de hoy ....... y me  he gustado. </h3>
-            
-            <label>
-                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> He relajado
-            </label>
-
-            <label>
-                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Has relajado
-            </label>
-
-            <label>
-                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Ha relajado
-            </label>
-
-            <label>
-                <input type="radio" value="4" name="p1" onclick="respuesta(1,this)"> Hemos relajado
-            </label>
-
-            <label>
-                <input type="radio" value="5" name="p1" onclick="respuesta(1,this)"> Habeis relajado
-            </label>
-
-            <label>
-                <input type="radio" value="6" name="p1" onclick="respuesta(1,this)"> Han relajado 
-            </label>
-
-            
-
-        </section>
 
 
         <section id="p2">
@@ -108,9 +109,38 @@
         </section>
 
 
+         <section id="p3">
+            <h3>4 - Rafael ..... fútbol esta tarde con mis amigos. </h3>
+            
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> He jugado
+            </label>
 
-        <section id="p3">
-            <h3>4-  Mariana, Duda, Paulo y João ...... lasaña con nuestras  familias y nuestros amigos. </h3>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Has jugado
+            </label>
+
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Ha jugado
+            </label>
+
+            <label>
+                <input type="radio" value="4" name="p4" onclick="respuesta(4,this)"> Hemos jugado
+            </label>
+
+            <label>
+                <input type="radio" value="5" name="p4" onclick="respuesta(4,this)"> Habeis jugado
+            </label>
+
+            <label>
+                <input type="radio" value="6" name="p4" onclick="respuesta(4,this)"> Han jugado
+            </label>
+
+        </section>
+
+
+        <section id="p4">
+            <h3>5-  Mariana, Duda, Paulo y João ...... lasaña con nuestras  familias y nuestros amigos. </h3>
             
             <label>
                 <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> He comido
@@ -139,34 +169,7 @@
         </section>
 
 
-        <section id="p4">
-            <h3>5- Rafael ..... fútbol esta tarde con mis amigos. </h3>
-            
-            <label>
-                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> He jugado
-            </label>
-
-            <label>
-                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Has jugado
-            </label>
-
-            <label>
-                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Ha jugado
-            </label>
-
-            <label>
-                <input type="radio" value="4" name="p4" onclick="respuesta(4,this)"> Hemos jugado
-            </label>
-
-            <label>
-                <input type="radio" value="5" name="p4" onclick="respuesta(4,this)"> Habeis jugado
-            </label>
-
-            <label>
-                <input type="radio" value="6" name="p4" onclick="respuesta(4,this)"> Han jugado
-            </label>
-
-        </section>
+       
         
         <button onclick="corrigir()">FINALIZAR</button>
         <h2>Cantidad acertadas: <span id="resultado"></span></h2>
